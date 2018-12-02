@@ -42,15 +42,13 @@
   "dependencies": {
     "datastore-core": "~0.6.0",
     "encoding-down": "^5.0.4",
-    "interface-datastore": "~0.6.0",
+    "interface-datastore": "github:ipfs/interface-datastore#refactor/async-iterators",
     "level-js": "github:timkuijsten/level.js#idbunwrapper",
     "leveldown": "^3.0.2",
-    "levelup": "^2.0.2",
-    "pull-stream": "^3.6.9"
+    "levelup": "^2.0.2"
   },
   "devDependencies": {
-    "aegir": "^15.3.1",
-    "async": "^2.6.1",
+    "aegir": "^17.1.1",
     "chai": "^4.2.0",
     "cids": "~0.5.5",
     "dirty-chai": "^2.0.1",
